@@ -5,11 +5,33 @@
 @import "styles/root.scss";
 @import "styles/fonts.scss";
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--color-primary);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-p {
-  color: var(--color-on-surface);
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--secondary-clr-white);
+  background-color: var(--primary-clr-one);
+}
+
+img,
+svg {
+  width: 100%;
+}
+
+.home-page {
+  grid-template-columns: repeat(2, 1fr);
+
+  &__text-area{
+    grid-area: 1fr;
+  }
+
+  &__cards{
+    grid-area: 1fr;
+    width: 100px;
+    height: 100vh;
+  }
 }

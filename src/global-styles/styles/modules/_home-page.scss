@@ -1,0 +1,51 @@
+.home-page {
+    display: flex;
+    flex-flow: row wrap;
+    
+  
+    &__text-area{
+      flex: 1;
+    }
+  
+    &__cards{
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        
+    }
+
+    &__cards .card{
+        min-height: 218px;
+        min-width: 240px;
+        padding: 1.5rem 1rem;
+        background-color: var(--secondary-clr-blue);
+        grid-area: span 1;
+        border-radius: 24px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0 auto;
+    }
+
+    &__cards .card__svg-holder{
+        stroke: var(--primary-clr-two);
+        width: 64px;
+        height: 64px;
+        padding: 16px;
+        background-color: #373155;
+        border-radius: 16px;
+        margin-top: 24px;
+    }
+
+    &__cards .card h3{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    &__cards .card p{
+        line-height: 150%;
+        opacity: .5;
+    }
+  }

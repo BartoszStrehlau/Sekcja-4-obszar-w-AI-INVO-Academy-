@@ -1,37 +1,11 @@
 /// Main Styles File
 /// Here we import all the global Styles files we need for our project.
+///Base
+@import "styles/base/normalize.scss";
+@import "styles/base/root.scss";
+@import "styles/base/fonts.scss";
+@import "styles/base/global.scss";
+//Modules
+@import "styles/modules/_home-page.scss";
+@import "styles/modules/_wrapper.scss";
 
-@import "styles/normalize.scss";
-@import "styles/root.scss";
-@import "styles/fonts.scss";
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'DM Sans', sans-serif;
-  color: var(--secondary-clr-white);
-  background-color: var(--primary-clr-one);
-}
-
-img,
-svg {
-  width: 100%;
-}
-
-.home-page {
-  grid-template-columns: repeat(2, 1fr);
-
-  &__text-area{
-    grid-area: 1fr;
-  }
-
-  &__cards{
-    grid-area: 1fr;
-    width: 100px;
-    height: 100vh;
-  }
-}

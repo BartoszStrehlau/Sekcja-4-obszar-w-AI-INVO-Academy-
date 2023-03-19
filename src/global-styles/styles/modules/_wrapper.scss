@@ -1,5 +1,14 @@
-.wrapper{
+.wrapper {
     max-width: 76rem;
-    padding: 5rem 1rem;
+    padding: 3rem 1rem 4rem 1rem;
+
+    @media (min-width: 666px) {
+        padding: 15.375rem 10.5rem;
+    }
+
+    @media (min-width: 834px) {
+        padding: 5rem 1rem;
+    }
+
     margin: 0 auto;
 }

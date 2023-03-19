@@ -1,16 +1,26 @@
-*,
-*::before,
-*::after {
+html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  // background: rgba(0 50 50 /0.1) !important;
+  // outline: 1px solid black !important;
 }
 
 body {
   font-family: 'DM Sans', sans-serif;
-  color: var(--secondary-clr-white);
-  background-color: var(--primary-clr-one);
+  color: $secondary-clr-white;
+  background-color: $primary-clr-one;
 }
 
-img,
-svg {
-  width: 100%;
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+img, svg{
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

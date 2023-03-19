@@ -2,13 +2,11 @@
 /// Here we define all the root variables we need for our project.
 /// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
 
-:root {
-    --primary-clr-one:#0F162D;
-    --primary-clr-two:#CA59FF;
-    --primary-clr-three:#6C7CFF;
-    --primary-clr-four:#2AFFFF;
-    --primary-clr-five:#FFF629;
-    --secondary-clr-white:#FFF;
-    --secondary-clr-blue:#272D42;
-    --secondary-clr-black:#000;
-}
+$primary-clr-one:#0F162D;
+$primary-clr-two:#CA59FF;
+$primary-clr-three:#6C7CFF;
+$primary-clr-four:#2AFFFF;
+$primary-clr-five:#FFF629;
+$secondary-clr-white:#FFF;
+$secondary-clr-blue:#272D42;
+$secondary-clr-black:#000;

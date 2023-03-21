@@ -1,10 +1,9 @@
 /// Main Styles File
 /// Here we import all the global Styles files we need for our project.
 ///Base
-@import "styles/base/normalize.scss";
-@import "styles/base/root.scss";
-@import "styles/base/fonts.scss";
-@import "styles/base/global.scss";
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+@import "styles/global.scss";
 //Modules
-@import "styles/modules/_home-page.scss";
 @import "styles/modules/_wrapper.scss";
